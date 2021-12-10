@@ -22,6 +22,6 @@ int main(){
 	
 	return 0;
 }
-/* 1'den 300'e kadar olan sayıların 2 ile kalanını hesaplayıp daha sonra ilgili basamakları 10 ile çarpar ve ikilik sayı sistemine göre yazdırır.
-Sayı bitene kadar sürekli tekrarlar ve diğer sayıyı da aynı şekilde yapar */
+/* 1'den 300'e kadar olan sayÄ±larÄ±n 2 ile kalanÄ±nÄ± hesaplayÄ±p daha sonra ilgili basamaklarÄ± 10 ile Ã§arpar ve ikilik sayÄ± sistemine gÃ¶re yazdÄ±rÄ±r.
+SayÄ± bitene kadar sÃ¼rekli tekrarlar ve diÄŸer sayÄ±yÄ± da aynÄ± ÅŸekilde yapar */
 
