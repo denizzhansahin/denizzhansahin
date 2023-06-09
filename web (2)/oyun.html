@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Oyun Sayfası</title>
+    <meta http-equiv="content-language" content="tr">
+    <meta name="keywords" content="oyun, asal sayi">
+    <meta name="description" content="Asal Sayıları Bulma Üzerine Bir Sayfadır.">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859">
+
+    <!-- deger atamak-->
+    <script>
+        var toplam = 0;
+        var dogru = 0;
+        var yanlis = 0;
+
+        deger1 = Math.floor(Math.random() * 100);
+        deger2 = Math.floor(Math.random() * 100);
+        deger3 = Math.floor(Math.random() * 100);
+        deger4 = Math.floor(Math.random() * 100);
+        deger5 = Math.floor(Math.random() * 100);
+        deger6 = Math.floor(Math.random() * 100);
+        deger7 = Math.floor(Math.random() * 100);
+        deger8 = Math.floor(Math.random() * 100);
+        deger9 = Math.floor(Math.random() * 100);
+        deger10 = Math.floor(Math.random() * 100);
+
+        deger11 = Math.floor(Math.random() * 100);
+        deger12 = Math.floor(Math.random() * 100);
+        deger13 = Math.floor(Math.random() * 100);
+        deger14 = Math.floor(Math.random() * 100);
+        deger15 = Math.floor(Math.random() * 100);
+        deger16 = Math.floor(Math.random() * 100);
+        deger17 = Math.floor(Math.random() * 100);
+        deger18 = Math.floor(Math.random() * 100);
+        deger19 = Math.floor(Math.random() * 100);
+        deger20 = Math.floor(Math.random() * 100);
+
+        deger21 = Math.floor(Math.random() * 100);
+        deger22 = Math.floor(Math.random() * 100);
+        deger23 = Math.floor(Math.random() * 100);
+        deger24 = Math.floor(Math.random() * 100);
+        deger25 = Math.floor(Math.random() * 100);
+        deger26 = Math.floor(Math.random() * 100);
+        deger27 = Math.floor(Math.random() * 100);
+        deger28 = Math.floor(Math.random() * 100);
+        deger29 = Math.floor(Math.random() * 100);
+        deger30 = Math.floor(Math.random() * 100);
+
+        deger31 = Math.floor(Math.random() * 100);
+        deger32 = Math.floor(Math.random() * 100);
+        deger33 = Math.floor(Math.random() * 100);
+        deger34 = Math.floor(Math.random() * 100);
+        deger35 = Math.floor(Math.random() * 100);
+        deger36 = Math.floor(Math.random() * 100);
+        deger37 = Math.floor(Math.random() * 100);
+        deger38 = Math.floor(Math.random() * 100);
+        deger39 = Math.floor(Math.random() * 100);
+        deger40 = Math.floor(Math.random() * 100);
+
+        deger41 = Math.floor(Math.random() * 100);
+        deger42 = Math.floor(Math.random() * 100);
+        deger43 = Math.floor(Math.random() * 100);
+        deger44 = Math.floor(Math.random() * 100);
+        deger45 = Math.floor(Math.random() * 100);
+        deger46 = Math.floor(Math.random() * 100);
+        deger47 = Math.floor(Math.random() * 100);
+        deger48 = Math.floor(Math.random() * 100);
+        //deger49 = Math.floor(Math.random()*100);
+        //deger50 = Math.floor(Math.random()*100);
+
+
+        function basla() {
+
+            document.getElementById("sayi1").innerHTML = deger1;
+            document.getElementById("sayi2").innerHTML = deger2;
+            document.getElementById("sayi3").innerHTML = deger3;
+            document.getElementById("sayi4").innerHTML = deger4;
+            document.getElementById("sayi5").innerHTML = deger5;
+            document.getElementById("sayi6").innerHTML = deger6;
+            document.getElementById("sayi7").innerHTML = deger7;
+            document.getElementById("sayi8").innerHTML = deger8;
+            document.getElementById("sayi9").innerHTML = deger9;
+            document.getElementById("sayi10").innerHTML = deger10;
+
+            document.getElementById("sayi11").innerHTML = deger11;
+            document.getElementById("sayi12").innerHTML = deger12;
+            document.getElementById("sayi13").innerHTML = deger13;
+            document.getElementById("sayi14").innerHTML = deger14;
+            document.getElementById("sayi15").innerHTML = deger15;
+            document.getElementById("sayi16").innerHTML = deger16;
+            document.getElementById("sayi17").innerHTML = deger17;
+            document.getElementById("sayi18").innerHTML = deger18;
+            document.getElementById("sayi19").innerHTML = deger19;
+            document.getElementById("sayi20").innerHTML = deger20;
+
+            document.getElementById("sayi21").innerHTML = deger21;
+            document.getElementById("sayi22").innerHTML = deger22;
+            document.getElementById("sayi23").innerHTML = deger23;
+            document.getElementById("sayi24").innerHTML = deger24;
+            document.getElementById("sayi25").innerHTML = deger25;
+            document.getElementById("sayi26").innerHTML = deger26;
+            document.getElementById("sayi27").innerHTML = deger27;
+            document.getElementById("sayi28").innerHTML = deger28;
+            document.getElementById("sayi29").innerHTML = deger29;
+            document.getElementById("sayi30").innerHTML = deger30;
+
+            document.getElementById("sayi31").innerHTML = deger31;
+            document.getElementById("sayi32").innerHTML = deger32;
+            document.getElementById("sayi33").innerHTML = deger33;
+            document.getElementById("sayi34").innerHTML = deger34;
+            document.getElementById("sayi35").innerHTML = deger35;
+            document.getElementById("sayi36").innerHTML = deger36;
+            document.getElementById("sayi37").innerHTML = deger37;
+            document.getElementById("sayi38").innerHTML = deger38;
+            document.getElementById("sayi39").innerHTML = deger39;
+            document.getElementById("sayi40").innerHTML = deger40;
+
+            document.getElementById("sayi41").innerHTML = deger41;
+            document.getElementById("sayi42").innerHTML = deger42;
+            document.getElementById("sayi43").innerHTML = deger43;
+            document.getElementById("sayi44").innerHTML = deger44;
+            document.getElementById("sayi45").innerHTML = deger45;
+            document.getElementById("sayi46").innerHTML = deger46;
+            document.getElementById("sayi47").innerHTML = deger47;
+            document.getElementById("sayi48").innerHTML = deger48;
+
+            //  document.getElementById("sayi49").innerHTML = deger49;
+            //  document.getElementById("sayi50").innerHTML = deger50;
+        }
+    </script>
+    <!-- deger atamak-->
+
+
+    <!--islem-->
+    <script>
+        function sayi1islem(x) {
+
+            var sayici = 0;
+            if (x == 0) {
+                sayici = sayici;
+            } else {
+
+                if (x == 1) {
+                    sayici = sayici;
+                } else {
+                    for (i = 2; i < x; i++) {
+                        if (x % i == 0) {
+                            sayici++;
+                        }
+                    }
+
+                    if (sayici == 0) {
+                        toplam = toplam + 50;
+                        document.getElementById("puan").innerHTML = toplam;
+
+                        dogru = dogru + 1;
+                        document.getElementById("dogru1").innerHTML = dogru;
+                    } else {
+                        toplam = toplam - 25;
+                        document.getElementById("puan").innerHTML = toplam;
+
+                        yanlis = yanlis + 1;
+                        document.getElementById("yanlis1").innerHTML = yanlis;
+                    }
+
+                }
+            }
+            if (toplam == 1000) {
+                alert("1000 Puana Ulaştınız! Oyunu Kazandınız!");
+            }
+
+
+
+        }
+    </script>
+
+
+    <script type="text/javascript" src="d.js"></script>
+
+
+    <!--islem-->
+
+
+    <style>
+        body {
+            background-color: rgb(18, 204, 18);
+        }
+        
+        button {
+            background-image: url(bulut.png);
+            margin: 10px;
+            min-width: 120px;
+            max-width: fit-content;
+            min-height: 70px;
+            max-height: fit-content;
+            border: .0px solid crimson;
+            border-radius: 0px;
+            font-weight: bold;
+            font-size: 15px;
+            color: rgb(10, 0, 0);
+            padding: 8px;
+            transition-property: width;
+            transition-duration: 5s;
+            transition-delay: 2s;
+        }
+        
+        .button1:hover {
+            background-image: url(bl.png);
+            -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+            box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+            min-width: 150px;
+            min-height: 90px;
+        }
+        
+        tr {
+            height: 150px;
+        }
+        
+        td {
+            width: 90px;
+        }
+        
+        #baslat {
+            background-color: rgb(243, 239, 9);
+            margin: 10px;
+            min-width: 120px;
+            max-width: fit-content;
+            background-image: none;
+            min-height: 35px;
+            max-height: fit-content;
+            border: .5px solid rgb(20, 40, 220);
+            border-radius: 10px;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            padding: 8px;
+            box-shadow: 0 0 30px 0 crimson, 0 0 30px 0 crimson, 0 0 10px 0 crimson inset;
+        }
+        
+        #button_islem {
+            background-color: rgb(226, 168, 9);
+            background-image: none;
+            margin: 10px;
+            min-width: 120px;
+            max-width: fit-content;
+            min-height: 70px;
+            max-height: fit-content;
+            border: .5px solid crimson;
+            border-radius: 10px;
+            font-weight: bold;
+            color: rgb(2, 0, 0);
+            padding: 8px;
+            box-shadow: 0 0 30px 0 crimson, 0 0 30px 0 crimson, 0 0 10px 0 crimson inset;
+        }
+        
+        #dogru1 {
+            background-color: rgb(180, 16, 230);
+            background-image: none;
+            margin: 10px;
+            min-width: 120px;
+            max-width: fit-content;
+            min-height: 70px;
+            max-height: fit-content;
+            border: .5px solid crimson;
+            border-radius: 10px;
+            font-weight: bold;
+            color: rgb(2, 0, 0);
+            padding: 8px;
+            box-shadow: 0 0 30px 0 crimson, 0 0 30px 0 crimson, 0 0 10px 0 crimson inset;
+        }
+        
+        #yanlis1 {
+            background-color: rgb(247, 26, 18);
+            background-image: none;
+            margin: 10px;
+            min-width: 120px;
+            max-width: fit-content;
+            min-height: 70px;
+            max-height: fit-content;
+            border: .5px solid crimson;
+            border-radius: 10px;
+            font-weight: bold;
+            color: rgb(2, 0, 0);
+            padding: 8px;
+            box-shadow: 0 0 30px 0 crimson, 0 0 30px 0 crimson, 0 0 10px 0 crimson inset;
+        }
+        
+        #puan {
+            background-color: rgb(17, 179, 243);
+            margin: 10px;
+            background-image: none;
+            min-width: 120px;
+            max-width: fit-content;
+            min-height: 35px;
+            max-height: fit-content;
+            border: .5px solid crimson;
+            border-radius: 10px;
+            color: rgb(2, 0, 0);
+            font-weight: bold;
+            padding: 8px;
+            box-shadow: 0 0 30px 0 crimson, 0 0 30px 0 crimson, 0 0 10px 0 crimson inset;
+        }
+        
+        input {
+            border: rgb(18, 204, 18);
+            background-color: rgb(18, 204, 18);
+            min-width: 100px;
+            max-width: fit-content;
+            min-height: 50px;
+            max-height: fit-content;
+        }
+        
+        p {
+            text-align: center;
+        }
+        
+        table {
+            background-color: rgb(18, 204, 18);
+        }
+        
+        #tr1 {
+            background-color: rgb(18, 204, 18);
+        }
+    </style>
+
+    <!-- degsitir-->
+    <script>
+        function degistir(y, x) {
+            document.getElementById("deneme").innerHTML = x;
+            document.getElementById(y).style.backgroundColor = "white";
+            document.getElementById(y).style.color = "red";
+        }
+    </script>
+    <!-- degsitir-->
+
+    <!-- buton kapatma -->
+    <script>
+        function buton_kapat(x) {
+            var btn = document.getElementById(x);
+            btn.disabled = true;
+            btn.innerText = 'Buton Kapandı';
+        }
+    </script>
+    <!-- buton kapatma-->
+
+</head>
+
+<body>
+    <center>
+        <table border="0" width="auto" height="auto">
+            <td width="auto" height="auto">
+                <td id="t"><input type="button" onclick="sayi1islem(deger1),degistir(id,deger1)" id="button1"></button>
+                </td>
+                <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger1),degistir(id,deger1),this.disabled=true;" id="sayi1">Sayi</button></td>
+                <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger2),degistir(id,deger2),buton_kapat(id)" id="sayi2">Sayi</button></td>
+                <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger3),degistir(id,deger3)" id="sayi3">Sayi</button></td>
+                <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger4),degistir(id,deger4)" id="sayi4">Sayi</button></td>
+                <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger5),degistir(id,deger5)" id="sayi5">Sayi</button></td>
+                <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger6),degistir(id,deger6)" id="sayi6">Sayi</button></td>
+                <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger7),degistir(id,deger7)" id="sayi7">Sayi</button></td>
+                <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger8),degistir(id,deger8)" id="sayi8">Sayi</button></td>
+                <td id="t"><input type="button" onclick="sayi1islem(deger1),degistir(id,deger1)" id="button1"></button>
+                </td>
+
+            </td>
+            <td width="auto" height="auto">
+                <button type="submit" id="baslat" onclick="basla()">Sayıları Göster</button>
+                <br>
+                <button type="submit" id="puan">Toplam Puan</button>
+            </td>
+            <tr>
+                <td width="auto" height="auto">
+                    <td id="t"><input type="button" onclick="sayi1islem(deger1),degistir(id,deger1)" id="button1"></button>
+                    </td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger9),degistir(id,deger9)" id="sayi9">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger10),degistir(id,deger10)" id="sayi10">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger11),degistir(id,deger11)" id="sayi11">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger12),degistir(id,deger12)" id="sayi12">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger13),degistir(id,deger13)" id="sayi13">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger14),degistir(id,deger14)" id="sayi14">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger15),degistir(id,deger15)" id="sayi15">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger16),degistir(id,deger16)" id="sayi16">Sayi</button></td>
+                    <td id="t"><input type="button" onclick="sayi1islem(deger1),degistir(id,deger1)" id="button1"></button>
+                    </td>
+
+
+
+                </td>
+                <td width="auto" height="auto">
+                    <button type="submit" id="dogru1">Dogru Sayisi</button>
+                </td>
+            </tr>
+            <tr>
+                <td width="auto" height="auto">
+                    <td id="t"><input type="button" onclick="sayi1islem(deger1),degistir(id,deger1)" id="button1"></button>
+                    </td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger17),degistir(id,deger17)" id="sayi17">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger18),degistir(id,deger18)" id="sayi18">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger19),degistir(id,deger19)" id="sayi19">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger20),degistir(id,deger20)" id="sayi20">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger21),degistir(id,deger21)" id="sayi21">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger22),degistir(id,deger22)" id="sayi22">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger23),degistir(id,deger23)" id="sayi23">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger24),degistir(id,deger24)" id="sayi24">Sayi</button></td>
+                    <td id="t"><input type="button" onclick="sayi1islem(deger1),degistir(id,deger1)" id="button1"></button>
+                    </td>
+
+
+
+
+                </td>
+                <td width="auto" height="auto">
+                    <button type="submit" id="yanlis1">Yanlis Sayisi</button>
+                </td>
+            </tr>
+            <tr>
+                <td width="auto" height="auto">
+                    <td id="t"><input type="button" onclick="sayi1islem(deger1),degistir(id,deger1)" id="button1"></button>
+                    </td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger25),degistir(id,deger25)" id="sayi25">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger26),degistir(id,deger26)" id="sayi26">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger27),degistir(id,deger27)" id="sayi27">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger28),degistir(id,deger28)" id="sayi28">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger29),degistir(id,deger29)" id="sayi29">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger30),degistir(id,deger30)" id="sayi30">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger31),degistir(id,deger31)" id="sayi31">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger32),degistir(id,deger32)" id="sayi32">Sayi</button></td>
+                    <td id="t"><input type="button" onclick="sayi1islem(deger1),degistir(id,deger1)" id="button1"></button>
+                    </td>
+
+
+
+                </td>
+                <td width="auto" height="auto">
+                    <button type="submit" id="button_islem">Asal Sayi Oyununa Geç</button>
+                </td>
+            </tr>
+            <tr>
+                <td width="auto" height="auto">
+                    <td id="t"><input type="button" onclick="sayi1islem(deger1),degistir(id,deger1)" id="button1"></button>
+                    </td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger33),degistir(id,deger33)" id="sayi33">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger34),degistir(id,deger34)" id="sayi34">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger35),degistir(id,deger35)" id="sayi35">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger36),degistir(id,deger36)" id="sayi36">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger37),degistir(id,deger37)" id="sayi37">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger38),degistir(id,deger38)" id="sayi38">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger39),degistir(id,deger39)" id="sayi39">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger40),degistir(id,deger40)" id="sayi40">Sayi</button></td>
+                    <td id="t"><input type="button" onclick="sayi1islem(deger1),degistir(id,deger1)" id="button1"></button>
+                    </td>
+
+                </td>
+
+                <td width="auto" height="auto">
+
+                    <button type="submit" id="button_islem">Negatif Sayi Oyununa Geç</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <td id="t"><input type="button" onclick="sayi1islem(deger1),degistir(id,deger1)" id="button1"></button>
+                    </td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger41),degistir(id,deger41)" id="sayi41">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger42),degistir(id,deger42)" id="sayi42">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger43),degistir(id,deger43)" id="sayi43">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger44),degistir(id,deger44)" id="sayi44">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger45),degistir(id,deger45)" id="sayi45">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger46),degistir(id,deger46)" id="sayi46">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger47),degistir(id,deger47)" id="sayi47">Sayi</button></td>
+                    <td id="t"><button type="submit" class="buttonn button1" onclick="sayi1islem(deger48),degistir(id,deger48)" id="sayi48">Sayi</button></td>
+                    <td id="t"><input type="button" onclick="sayi1islem(deger1),degistir(id,deger1)" id="button1"></button>
+                    </td>
+                </td>
+                <td>
+                    <td id="t"><input type="button" onclick="sayi1islem(deger1),degistir(id,deger1)" id="button1"></button>
+                    </td>
+                    <!-- 
+                    <td><button type="submit" onclick="sayi1islem(deger49),degistir(id,deger49)" id="sayi49">Sayi</button></td>
+                    <td><button type="submit" onclick="sayi1islem(deger50),degistir(id,deger50)" id="sayi50">Sayi</button></td>
+                    -->
+
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>

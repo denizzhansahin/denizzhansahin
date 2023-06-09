@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anasayfa</title>
+    <meta http-equiv="content-language" content="tr">
+    <meta name="keywords" content="oyun, asal sayi">
+    <meta name="description" content="Asal Sayıları Bulma Üzerine Bir Sayfadır.">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859">
+
+
+
+    <script type="text/javascript" src="d.js"></script>
+
+
+    <style>
+        body {
+            margin-top: 300px;
+            background-color: rgb(18, 204, 18);
+        }
+        
+        body {
+            text-align: center;
+        }
+        
+        p {
+            font-size: xx-large;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            --c: rgb(44, 66, 44);
+            color: var(--c);
+            font-size: 16px;
+            border: 0.3em solid var(--c);
+            border-radius: 0.5em;
+            width: 12em;
+            height: 3em;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: sans-serif;
+            letter-spacing: 0.1em;
+            text-align: center;
+            line-height: 3em;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            transition: 0.5s;
+            margin: 1em;
+        }
+        
+        nav ul li span {
+            position: absolute;
+            width: 25%;
+            height: 100%;
+            background-color: var(--c);
+            transform: translateY(150%);
+            border-radius: 50%;
+            left: calc((var(--n) - 1) * 25%);
+            transition: 0.5s;
+            transition-delay: calc((var(--n) - 1) * 0.1s);
+            z-index: -1;
+        }
+        
+        nav ul li:hover {
+            color: black;
+        }
+        
+        nav ul li:hover span {
+            transform: translateY(0) scale(4);
+        }
+        
+        nav ul li span:nth-child(1) {
+            --n: 1;
+        }
+        
+        nav ul li span:nth-child(2) {
+            --n: 2;
+        }
+        
+        nav ul li span:nth-child(3) {
+            --n: 3;
+        }
+        
+        nav ul li span:nth-child(4) {
+            --n: 4;
+        }
+        
+        a {
+            color: black;
+        }
+        
+        a:hover {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Asal Sayıları Bulma Oyunu</h1>
+    <center>
+        <nav>
+            <ul>
+                <li>
+                    <a href='oyun.html'>Basla</a>
+                    <span></span><span></span><span></span><span></span>
+                </li>
+            </ul>
+        </nav>
+    </center>
+
+
+    <p>
+        Bilgisayarınız, her butona 1'den 100'e kadar rastgele sayı yerleştirmektedir.<br> Butonlardaki sayıları görmek için "Sayıları Göster" butonuna tıklayınız.<br> Tıklanan butondaki sayı eğer asal sayı ise kullanıcı +50 puan kazanır.<br> Eğer tıklanan
+        butondaki sayi asal sayı değil ise kullanıcının puanı -25 azalır.
+    </p>
+
+</body>
+
+</html>
