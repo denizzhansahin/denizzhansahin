@@ -1,0 +1,118 @@
+eksik olan PYTHON kütüphanelerini yükleyiniz:
+
+pip install pypyodbc
+pip install PyQt5
+
+VERİ TABANI GERİ YÜKLEME DOSYASINDAN GERİ YÜKLEYİNİZ VEYA AŞAĞIDAKİ ADIMLARI YAPINIZ:
+
+Veritabanı ve tabloları oluşturunuz:
+
+USE OgrenciVeriTabani
+CREATE TABLE OgrenciTablosu
+(
+OgrenciID bigint PRIMARY KEY NOT NULL,
+KimlikID bigint NULL,
+Isim varchar(50) NULL,
+Soyisim varchar(50) NULL,
+Addres varchar(500) NULL,
+TelNo bigint NULL,
+EPosta varchar(50) NULL,
+Uyruk varchar(50) NULL,
+Cinsiyet varchar(50) NULL,
+Sehir varchar(50) NULL,
+DogumGun INT NULL,
+DogumAy INT NULL,
+DogumYil INT NULL,
+Fakulte varchar(50) NULL,
+Bolum varchar(50) NULL,
+OgretimTuru varchar(50) NULL,
+OgrenciTuru varchar(50) NULL,
+OkulEposta varchar(50) NULL,
+DGS varchar(50) NULL,
+YatayGecis varchar(50) NULL,
+KayitGun INT NULL,
+KayitAy INT NULL,
+KayitYil INT NULL,
+
+);
+
+USE OgrenciVeriTabani
+CREATE TABLE AkademisyenKurumsalVeriTablosu
+(
+AkademisyenID bigint PRIMARY KEY NOT NULL,
+KimlikID bigint NULL,
+Isim varchar(50) NULL,
+Soyisim varchar(50) NULL,
+Adres varchar(500) NULL,
+TelNo bigint NULL,
+EPosta varchar(50) NULL,
+Uyruk varchar(50) NULL,
+Cinsiyet varchar(50) NULL,
+Sehir varchar(50) NULL,
+DogumGun INT NULL,
+DogumAy INT NULL,
+DogumYil INT NULL,
+GorevFakulte varchar(50) NULL,
+GorevBolum varchar(50) NULL,
+GorevOgretimTuru varchar(50) NULL,
+GorevLisansTuru varchar(50) NULL,
+GorevTuru varchar(50) NULL,
+OkulEposta varchar(50) NULL,
+GorevKayitGun INT NULL,
+GorevKayitAy INT NULL,
+GorevKayitYil INT NULL,
+
+);
+
+USE OgrenciVeriTabani
+CREATE TABLE AkademisyenEgitimVeriTablosu
+(
+AkademisyenID bigint PRIMARY KEY NOT NULL,
+Universite varchar(50) NULL,
+Bolum varchar(50) NULL,
+OgretimTuru varchar(500) NULL,
+LisansTuru varchar(50) NULL,
+Fakulte varchar(50) NULL,
+Sehir varchar(50) NULL,
+BaslangicGun INT NULL,
+BaslangicAy INT NULL,
+BaslangicYil INT NULL,
+BitisGun INT NULL,
+BitisAy INT NULL,
+BitisYil INT NULL,
+
+);
+
+USE OgrenciVeriTabani
+CREATE TABLE AkademisyenYuksekLisansVeriTablosu
+(
+AkademisyenID bigint PRIMARY KEY NOT NULL,
+Universite varchar(50) NULL,
+Bolum varchar(50) NULL,
+Fakulte varchar(50) NULL,
+Sehir varchar(50) NULL,
+BaslangicGun INT NULL,
+BaslangicAy INT NULL,
+BaslangicYil INT NULL,
+BitisGun INT NULL,
+BitisAy INT NULL,
+BitisYil INT NULL,
+
+);
+
+USE OgrenciVeriTabani
+CREATE TABLE AkademisyenDoktoraVeriTablosu
+(
+AkademisyenID bigint PRIMARY KEY NOT NULL,
+Universite varchar(50) NULL,
+Bolum varchar(50) NULL,
+Fakulte varchar(50) NULL,
+Sehir varchar(50) NULL,
+BaslangicGun INT NULL,
+BaslangicAy INT NULL,
+BaslangicYil INT NULL,
+BitisGun INT NULL,
+BitisAy INT NULL,
+BitisYil INT NULL,
+
+);
