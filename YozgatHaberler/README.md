@@ -1,5 +1,16 @@
 https://play.google.com/store/apps/details?id=com.akinolsahin.haberler 
 
+![unnamed (10)](https://github.com/user-attachments/assets/2821435a-5b57-4f1e-b42b-d6077a8301ee)
+![unnamed (9)](https://github.com/user-attachments/assets/7c15f936-d478-4928-88f3-a8f79c3eba3c)
+![unnamed (7)](https://github.com/user-attachments/assets/6949c9f5-3f39-44c7-825f-3548c2e9e8d2)
+![unnamed (12)](https://github.com/user-attachments/assets/97dd13e9-c4ca-4d24-bb3c-72bef0be9cc9)
+![unnamed (11)](https://github.com/user-attachments/assets/fd5c633b-100e-4295-ba09-448e252fba6e)
+![unnamed (6)](https://github.com/user-attachments/assets/ef09a3ad-561f-4123-a0aa-75f690ac23ed)
+![unnamed (5)](https://github.com/user-attachments/assets/83cead75-1b96-431d-bc77-d470b3bd43a8)
+![unnamed (8)](https://github.com/user-attachments/assets/3a0816f0-1ba7-4838-a263-df70bc532858)
+![unnamed (4)](https://github.com/user-attachments/assets/d6f0a320-c054-4f24-af46-4d62d100d42f)
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
